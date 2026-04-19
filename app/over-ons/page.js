@@ -1,33 +1,8 @@
-const navLink = "hover:opacity-60 transition duration-200";
-const activeNavLink = "font-medium hover:opacity-60 transition duration-200";
+import PageCta from "../../components/page-cta";
 
 export default function OverOnsPage() {
   return (
-    <main className="bg-[#F7F5F2] text-[#2F3A4C] min-h-screen">
-      <header className="sticky top-0 bg-[#F7F5F2]/80 backdrop-blur border-b border-[#EAE6E0] z-50">
-        <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center gap-6">
-          <a href="/" className="block shrink-0" aria-label="Ga naar home">
-            <img src="/logo-clean.jpg" alt="Penta-C logo" className="w-full max-w-[180px] h-auto object-contain mix-blend-multiply" />
-          </a>
-          <nav className="hidden md:flex gap-10 text-sm items-center">
-            <a href="/" className={navLink}>Home</a>
-            <a href="/diensten" className={navLink}>Diensten</a>
-            <div className="relative group">
-              <a href="/over-ons" className={activeNavLink}>Over ons</a>
-              <div className="absolute top-full left-0 w-52 pt-3">
-                <div className="bg-white border border-[#EAE6E0] rounded-xl shadow-md opacity-0 invisible group-hover:opacity-100 group-hover:visible transition duration-200">
-                  <a href="/over-ons" className="block px-4 py-3 hover:bg-[#F7F5F2]">Over ons</a>
-                  <a href="/team/persoon-1" className="block px-4 py-3 hover:bg-[#F7F5F2] font-medium">Jacob Remijnse</a>
-                  <a href="/team/persoon-2" className="block px-4 py-3 hover:bg-[#F7F5F2]">Dennis Smith</a>
-                </div>
-              </div>
-            </div>
-            <a href="/contact" className={navLink}>Contact</a>
-          </nav>
-        </div>
-    
-      </header>
-
+    <>
       <section className="max-w-6xl mx-auto px-6 py-24 md:py-28">
         <p className="text-sm uppercase tracking-[0.2em] text-gray-500">Over ons</p>
         <h1 className="mt-4 text-4xl md:text-5xl font-semibold leading-tight max-w-4xl">
@@ -120,38 +95,21 @@ export default function OverOnsPage() {
         </div>
       </section>
 
-      <section className="py-24">
-        <div className="max-w-4xl mx-auto px-6 text-center bg-[#2F3A4C] text-white rounded-2xl p-12 md:p-16">
-          <h2 className="text-3xl md:text-4xl font-semibold">Kennismaken?</h2>
-          <p className="mt-6 text-gray-200 leading-8">Wij maken graag kennis in een vertrouwelijk eerste gesprek.</p>
-          <div className="mt-8"><a href="/contact" className="bg-white text-[#2F3A4C] px-6 py-3 rounded-md font-medium hover:-translate-y-0.5 hover:shadow-md transition duration-200">Neem contact op</a></div>
-        </div>
-      </section>
-
-      <footer className="border-t border-[#EAE6E0] py-12">
-  <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row justify-between gap-6 text-sm text-gray-600">
-    <div>
-      <p className="font-semibold text-[#2F3A4C]">Penta - C</p>
-      <p className="mt-2">Management consultancy &amp; M&amp;A advisory</p>
-    </div>
-
-    <div className="flex flex-wrap gap-4 md:justify-end">
-      <a href="/" className="hover:underline">Home</a>
-      <a href="/diensten" className="hover:underline">Diensten</a>
-      <a href="/over-ons" className="hover:underline">Over ons</a>
-      <a href="/contact" className="hover:underline">Contact</a>
-      <a href="mailto:info@penta-c.nl" className="hover:underline">info@penta-c.nl</a>
-      <a
-        href="https://www.linkedin.com/company/penta-c-management-consultants/"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="hover:underline"
-      >
-        LinkedIn
-      </a>
-    </div>
-  </div>
-</footer>
-    </main>
+      <PageCta
+        title="Kennismaken?"
+        titleClassName="text-3xl md:text-4xl font-semibold"
+        body="Wij maken graag kennis in een vertrouwelijk eerste gesprek."
+        bodyClassName="mt-6 text-gray-200 leading-8"
+        actionsClassName="mt-8"
+        actions={
+          <a
+            href="/contact"
+            className="bg-white text-[#2F3A4C] px-6 py-3 rounded-md font-medium hover:-translate-y-0.5 hover:shadow-md transition duration-200"
+          >
+            Neem contact op
+          </a>
+        }
+      />
+    </>
   );
 }

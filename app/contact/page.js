@@ -2,9 +2,6 @@
 
 import { useState } from "react";
 
-const navLink = "hover:opacity-60 transition duration-200";
-const activeNavLink = "font-medium hover:opacity-60 transition duration-200";
-
 export default function ContactPage() {
   const [form, setForm] = useState({
     naam: "",
@@ -53,38 +50,7 @@ export default function ContactPage() {
   }
 
   return (
-    <main className="bg-[#F7F5F2] text-[#2F3A4C] min-h-screen">
-      <header className="sticky top-0 bg-[#F7F5F2]/80 backdrop-blur border-b border-[#EAE6E0] z-50">
-        <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center gap-6">
-          <a href="/" className="block shrink-0" aria-label="Ga naar home">
-            <img
-              src="/logo-clean.jpg"
-              alt="Penta-C logo"
-              className="w-full max-w-[180px] h-auto object-contain mix-blend-multiply"
-            />
-          </a>
-
-          <nav className="hidden md:flex gap-10 text-sm items-center">
-            <a href="/" className={navLink}>Home</a>
-            <a href="/diensten" className={navLink}>Diensten</a>
-
-            <div className="relative group">
-              <a href="/over-ons" className={navLink}>Over ons</a>
-
-              <div className="absolute top-full left-0 w-52 pt-3">
-                <div className="bg-white border border-[#EAE6E0] rounded-xl shadow-md opacity-0 invisible group-hover:opacity-100 group-hover:visible transition duration-200">
-                  <a href="/over-ons" className="block px-4 py-3 hover:bg-[#F7F5F2]">Over ons</a>
-                  <a href="/team/persoon-1" className="block px-4 py-3 hover:bg-[#F7F5F2]">Jacob Remijnse</a>
-                  <a href="/team/persoon-2" className="block px-4 py-3 hover:bg-[#F7F5F2]">Dennis Smith</a>
-                </div>
-              </div>
-            </div>
-
-            <a href="/contact" className={activeNavLink}>Contact</a>
-          </nav>
-        </div>
-      </header>
-
+    <>
       <section className="max-w-6xl mx-auto px-6 py-24 md:py-28">
         <p className="text-sm uppercase tracking-[0.2em] text-gray-500">
           Contact
@@ -192,31 +158,6 @@ export default function ContactPage() {
           </div>
         </div>
       </section>
-
-      <footer className="border-t border-[#EAE6E0] py-12">
-        <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row justify-between gap-6 text-sm text-gray-600">
-          <div>
-            <p className="font-semibold text-[#2F3A4C]">Penta - C</p>
-            <p className="mt-2">Management consultancy &amp; M&amp;A advisory</p>
-          </div>
-
-          <div className="flex flex-wrap gap-4 md:justify-end">
-            <a href="/" className="hover:underline">Home</a>
-            <a href="/diensten" className="hover:underline">Diensten</a>
-            <a href="/over-ons" className="hover:underline">Over ons</a>
-            <a href="/contact" className="hover:underline">Contact</a>
-            <a href="mailto:info@penta-c.nl" className="hover:underline">info@penta-c.nl</a>
-            <a
-              href="https://www.linkedin.com/company/penta-c-management-consultants/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:underline"
-            >
-              LinkedIn
-            </a>
-          </div>
-        </div>
-      </footer>
-    </main>
+    </>
   );
 }
