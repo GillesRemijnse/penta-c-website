@@ -1,16 +1,27 @@
+import Image from "next/image";
 import PageCta from "../../../components/page-cta";
 
-export default function Persoon2Page() {
+export const metadata = {
+  title: "Dennis Smith - Managing Partner",
+  description:
+    "Profiel van Dennis Smith, Managing Partner en mede-oprichter van Penta - C, met focus op management consultancy, financiële vraagstukken en projectbegeleiding.",
+};
+
+export default function DennisSmithPage() {
   return (
     <>
       <section className="max-w-6xl mx-auto px-6 py-24 md:py-28">
         <div className="grid md:grid-cols-[420px_1fr] gap-12 items-start">
-          
-          {/* FOTO + LINKEDIN */}
           <div className="bg-white rounded-2xl p-4 border border-[#EAE6E0]">
-            <div className="aspect-[4/5] bg-gray-200 rounded-xl overflow-hidden">
-              {/* Hier later foto toevoegen */}
-              {/* <img src="/dennis-smith.jpg" className="w-full h-full object-cover" /> */}
+            <div className="relative aspect-[4/5] overflow-hidden rounded-xl bg-[#ECE8E1]">
+              <Image
+                src="/team/dennis-smith.jpg"
+                alt="Dennis Smith, Managing Partner at Penta-C"
+                fill
+                priority
+                sizes="(min-width: 768px) 420px, 100vw"
+                className="object-cover"
+              />
             </div>
 
             <a
@@ -23,7 +34,6 @@ export default function Persoon2Page() {
             </a>
           </div>
 
-          {/* INFO */}
           <div>
             <p className="text-sm uppercase tracking-[0.2em] text-gray-500">Team</p>
 
@@ -31,9 +41,7 @@ export default function Persoon2Page() {
               Dennis Smith
             </h1>
 
-            <p className="mt-3 text-lg text-gray-500">
-              Managing Partner
-            </p>
+            <p className="mt-3 text-lg text-gray-500">Managing Partner</p>
 
             <p className="mt-8 text-lg text-gray-600 leading-8 max-w-2xl">
               Dennis Smith is Managing Partner en mede-oprichter van Penta - C,

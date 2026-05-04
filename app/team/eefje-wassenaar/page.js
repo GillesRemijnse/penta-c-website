@@ -1,21 +1,30 @@
 import PageCta from "../../../components/page-cta";
 
+export const metadata = {
+  title: "Eefje Wassenaar - Associate Partner",
+  description:
+    "Profiel van Eefje Wassenaar, Associate Partner en Legal Counsel bij Penta - C, met focus op ondernemings- en contractrecht, arbeidsrecht en intellectueel eigendom.",
+};
+
 export default function EefjeWassenaarPage() {
   return (
     <>
       <section className="max-w-6xl mx-auto px-6 py-24 md:py-28">
         <div className="grid md:grid-cols-[420px_1fr] gap-12 items-start">
           <div className="bg-white rounded-2xl p-4 border border-[#EAE6E0]">
-            <div className="aspect-[4/5] bg-gray-200 rounded-xl overflow-hidden">
-              {/* Hier later foto toevoegen */}
-              {/* <img src="/eefje-wassenaar.jpg" className="w-full h-full object-cover" /> */}
+            <div className="relative flex aspect-[4/5] items-center justify-center overflow-hidden rounded-xl bg-[#ECE8E1]">
+              <span className="text-xs uppercase tracking-[0.18em] text-gray-500">
+                Foto volgt
+              </span>
             </div>
 
             <a
-              href="mailto:info@penta-c.nl"
+              href="https://www.linkedin.com/in/eefje-wassenaar-a8b17545/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="mt-4 inline-block text-sm text-[#2F3A4C] hover:underline"
             >
-              Neem contact op
+              LinkedIn
             </a>
           </div>
 

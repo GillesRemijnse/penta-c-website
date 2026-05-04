@@ -7,11 +7,11 @@ export const dropdownLinks = [
     label: "Over ons",
   },
   {
-    href: "/team/persoon-1",
+    href: "/team/jacob-remijnse",
     label: "Jacob Remijnse",
   },
   {
-    href: "/team/persoon-2",
+    href: "/team/dennis-smith",
     label: "Dennis Smith",
   },
   {
@@ -39,23 +39,23 @@ export function getHeaderState(pathname) {
   const states = {
     "/": {
       activePrimary: "/",
-      activeDropdown: "/team/persoon-1",
+      activeDropdown: "/team/jacob-remijnse",
     },
     "/diensten": {
       activePrimary: "/diensten",
-      activeDropdown: "/team/persoon-1",
+      activeDropdown: "/team/jacob-remijnse",
     },
     "/over-ons": {
       activePrimary: "/over-ons",
-      activeDropdown: "/team/persoon-1",
+      activeDropdown: "/team/jacob-remijnse",
     },
-    "/team/persoon-1": {
+    "/team/jacob-remijnse": {
       activePrimary: "/over-ons",
-      activeDropdown: "/team/persoon-1",
+      activeDropdown: "/team/jacob-remijnse",
     },
-    "/team/persoon-2": {
+    "/team/dennis-smith": {
       activePrimary: "/over-ons",
-      activeDropdown: "/team/persoon-2",
+      activeDropdown: "/team/dennis-smith",
     },
     "/team/eefje-wassenaar": {
       activePrimary: "/over-ons",

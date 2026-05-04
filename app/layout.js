@@ -1,26 +1,34 @@
 import "./globals.css";
-import { Inter, Playfair_Display } from "next/font/google";
+import { Inter, Source_Serif_4 } from "next/font/google";
 import SiteShell from "../components/site-shell";
 
 const inter = Inter({
   subsets: ["latin"],
   variable: "--font-inter",
+  display: "swap",
 });
 
-const playfair = Playfair_Display({
+const sourceSerif = Source_Serif_4({
   subsets: ["latin"],
-  variable: "--font-playfair",
+  variable: "--font-source-serif-4",
+  display: "swap",
 });
 
 export const metadata = {
-  title: "Penta - C B.V.",
-  description: "Management consultancy en fusie- en overnameadvies",
+  title: {
+    default: "Penta - C | M&A advisory, management consultancy & Legal Counsel",
+    template: "%s | Penta - C",
+  },
+  description:
+    "Penta - C is een boutique advieskantoor voor M&A advisory, management consultancy, projectbegeleiding en Legal Counsel.",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="nl">
-      <body className={`${inter.variable} ${playfair.variable} antialiased`}>
+      <body
+        className={`${inter.variable} ${sourceSerif.variable} antialiased`}
+      >
         <SiteShell>{children}</SiteShell>
       </body>
     </html>

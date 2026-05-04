@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useState, useSyncExternalStore } from "react";
 import { usePathname } from "next/navigation";
 import {
@@ -60,11 +61,14 @@ export default function SiteHeader() {
         {/* Preserved current anchor/image behavior during the shell refactor. */}
         {/* eslint-disable-next-line @next/next/no-html-link-for-pages */}
         <a href="/" className="block shrink-0" aria-label="Ga naar home">
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img
-            src="/logo-clean.jpg"
+          <Image
+            src="/brand/logo/penta-c-logo-horizontal.png"
             alt="Penta-C logo"
-            className="w-full max-w-[180px] h-auto object-contain mix-blend-multiply"
+            width={899}
+            height={286}
+            priority
+            sizes="180px"
+            className="h-auto w-full max-w-[180px] object-contain"
           />
         </a>
 

@@ -1,5 +1,11 @@
 import PageCta from "../../components/page-cta";
 
+export const metadata = {
+  title: "Diensten",
+  description:
+    "De dienstverlening van Penta - C omvat M&A advisory, management consultancy, projectbegeleiding en Legal Counsel.",
+};
+
 export default function DienstenPage() {
   return (
     <>

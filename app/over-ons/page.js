@@ -1,4 +1,11 @@
+import Image from "next/image";
 import PageCta from "../../components/page-cta";
+
+export const metadata = {
+  title: "Over ons",
+  description:
+    "Maak kennis met Penta - C en het team achter M&A advisory, management consultancy, projectbegeleiding en Legal Counsel.",
+};
 
 export default function OverOnsPage() {
   return (
@@ -11,10 +18,11 @@ export default function OverOnsPage() {
           bij trajecten die ertoe doen
         </h1>
         <p className="mt-6 text-lg text-gray-600 max-w-2xl leading-8">
-          Penta - C is een boutique advieskantoor dat zich richt op
-          management consultancy en fusies en overnames. Wij ondersteunen
-          ondernemers en organisaties bij beslissingen waar financiële,
-          strategische en persoonlijke belangen samenkomen.
+          Penta - C is een boutique advieskantoor voor M&amp;A advisory,
+          management consultancy, projectbegeleiding en Legal Counsel. Wij
+          ondersteunen ondernemers en organisaties bij vraagstukken waar
+          financiële, juridische, operationele en persoonlijke belangen
+          samenkomen.
         </p>
       </section>
 
@@ -46,7 +54,7 @@ export default function OverOnsPage() {
       <section className="py-24">
         <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-3 gap-8">
           <div className="bg-white rounded-2xl p-8 border border-[#EAE6E0]"><h3 className="text-xl font-semibold">Persoonlijk</h3><p className="mt-4 text-gray-600 leading-7">Direct contact en betrokkenheid bij iedere opdracht, met korte lijnen en heldere communicatie.</p></div>
-          <div className="bg-white rounded-2xl p-8 border border-[#EAE6E0]"><h3 className="text-xl font-semibold">Discreet</h3><p className="mt-4 text-gray-600 leading-7">Wij begrijpen dat timing, vertrouwelijkheid en zorgvuldigheid essentieel zijn bij strategische en transactionele vraagstukken.</p></div>
+          <div className="bg-white rounded-2xl p-8 border border-[#EAE6E0]"><h3 className="text-xl font-semibold">Discreet</h3><p className="mt-4 text-gray-600 leading-7">Wij begrijpen dat timing, vertrouwelijkheid en zorgvuldigheid essentieel zijn bij transacties, managementvraagstukken en juridische trajecten.</p></div>
           <div className="bg-white rounded-2xl p-8 border border-[#EAE6E0]"><h3 className="text-xl font-semibold">Resultaatgericht</h3><p className="mt-4 text-gray-600 leading-7">Gericht op duurzame uitkomsten en weloverwogen beslissingen, niet op volume of standaardprocessen.</p></div>
         </div>
       </section>
@@ -65,35 +73,56 @@ export default function OverOnsPage() {
 
           <div className="mt-14 grid md:grid-cols-3 gap-8">
             <div className="bg-[#F7F5F2] rounded-2xl p-8 border border-[#EAE6E0]">
-              <div className="aspect-[4/5] bg-gray-200 rounded-xl mb-6" />
+              <div className="relative mb-6 aspect-[4/5] overflow-hidden rounded-xl bg-[#ECE8E1]">
+                <Image
+                  src="/team/jacob-remijnse.jpg"
+                  alt="Jacob Remijnse, Managing Partner at Penta-C"
+                  fill
+                  sizes="(min-width: 768px) 33vw, 100vw"
+                  className="object-cover"
+                />
+              </div>
               <h3 className="text-xl font-semibold">Jacob Remijnse</h3>
               <p className="text-sm text-gray-500 mt-1">Managing Partner</p>
               <p className="mt-4 text-gray-600 leading-7">
-                Ervaren adviseur met focus op M&amp;A en strategische trajecten.
-                Combineert financiële diepgang met een praktische aanpak.
+                Ervaren adviseur met focus op M&amp;A advisory, financiering en
+                organisatieontwikkeling. Combineert financiële diepgang met
+                een praktische aanpak.
               </p>
               <div className="mt-6 flex gap-4 text-sm">
-                <a href="/team/persoon-1" className="hover:underline">Bekijk profiel</a>
+                <a href="/team/jacob-remijnse" className="hover:underline">Bekijk profiel</a>
                 <a href="mailto:info@penta-c.nl" className="hover:underline">Neem contact op</a>
               </div>
             </div>
 
             <div className="bg-[#F7F5F2] rounded-2xl p-8 border border-[#EAE6E0]">
-              <div className="aspect-[4/5] bg-gray-200 rounded-xl mb-6" />
+              <div className="relative mb-6 aspect-[4/5] overflow-hidden rounded-xl bg-[#ECE8E1]">
+                <Image
+                  src="/team/dennis-smith.jpg"
+                  alt="Dennis Smith, Managing Partner at Penta-C"
+                  fill
+                  sizes="(min-width: 768px) 33vw, 100vw"
+                  className="object-cover"
+                />
+              </div>
               <h3 className="text-xl font-semibold">Dennis Smith</h3>
               <p className="text-sm text-gray-500 mt-1">Managing Partner</p>
               <p className="mt-4 text-gray-600 leading-7">
-                Specialist in consultancy en waarderingsvraagstukken,
-                met oog voor structuur, strategie en besluitvorming.
+                Specialist in management consultancy, financiële vraagstukken
+                en projectbegeleiding, met oog voor structuur en uitvoering.
               </p>
               <div className="mt-6 flex gap-4 text-sm">
-                <a href="/team/persoon-2" className="hover:underline">Bekijk profiel</a>
+                <a href="/team/dennis-smith" className="hover:underline">Bekijk profiel</a>
                 <a href="mailto:info@penta-c.nl" className="hover:underline">Neem contact op</a>
               </div>
             </div>
 
             <div className="bg-[#F7F5F2] rounded-2xl p-8 border border-[#EAE6E0]">
-              <div className="aspect-[4/5] bg-gray-200 rounded-xl mb-6" />
+              <div className="mb-6 flex aspect-[4/5] items-center justify-center rounded-xl bg-[#ECE8E1]">
+                <span className="text-xs uppercase tracking-[0.18em] text-gray-500">
+                  Foto volgt
+                </span>
+              </div>
               <h3 className="text-xl font-semibold">Eefje Wassenaar</h3>
               <p className="text-sm text-gray-500 mt-1">Associate Partner</p>
               <p className="mt-4 text-gray-600 leading-7">

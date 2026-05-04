@@ -1,4 +1,11 @@
+import Image from "next/image";
 import PageCta from "../components/page-cta";
+
+export const metadata = {
+  title: "M&A advisory, management consultancy & Legal Counsel",
+  description:
+    "Penta - C ondersteunt ondernemers en organisaties bij M&A advisory, management consultancy, projectbegeleiding en Legal Counsel.",
+};
 
 export default function Home() {
   return (
@@ -46,13 +53,15 @@ export default function Home() {
         </div>
 
         <div className="flex justify-center md:justify-end">
-          <div className="bg-white rounded-2xl p-10 md:p-12 border border-[#EAE6E0] shadow-[0_10px_30px_rgba(0,0,0,0.04)] w-full max-w-[440px] min-h-[260px] flex items-center justify-center">
-            {/* Preserved current image element during the shell refactor. */}
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
-              src="/logo-clean.jpg"
+          <div className="relative flex min-h-[260px] w-full max-w-[440px] items-center justify-center md:justify-end">
+            <div className="pointer-events-none absolute inset-x-4 inset-y-6 rounded-[32px] bg-[radial-gradient(circle_at_center,_rgba(255,255,255,0.5),_rgba(255,255,255,0)_72%)]" />
+            <Image
+              src="/brand/logo/penta-c-logo-horizontal.png"
               alt="Penta-C logo"
-              className="w-full max-w-[240px] h-auto object-contain mix-blend-multiply"
+              width={899}
+              height={286}
+              sizes="(min-width: 1024px) 320px, (min-width: 768px) 280px, 220px"
+              className="relative h-auto w-full max-w-[220px] object-contain md:max-w-[300px] md:-translate-y-4 lg:max-w-[320px]"
             />
           </div>
         </div>
@@ -213,9 +222,10 @@ export default function Home() {
           <div>
             <p className="text-gray-600 leading-8">
               Penta - C is een boutique adviespraktijk op het gebied van
-              management consultancy en M&amp;A advisory. Juist doordat het
-              kantoor bewust kleinschalig opereert, krijgt iedere opdracht
-              de aandacht en senioriteit die nodig zijn.
+              M&amp;A advisory, management consultancy, projectbegeleiding en
+              Legal Counsel. Juist doordat het kantoor bewust kleinschalig
+              opereert, krijgt iedere opdracht de aandacht en senioriteit die
+              nodig zijn.
             </p>
 
             <p className="mt-6 text-gray-600 leading-8">
@@ -238,9 +248,9 @@ export default function Home() {
         eyebrow="Contact"
         title={
           <>
-            In gesprek over een strategisch
+            In gesprek over een transactie,
             <br className="hidden md:block" />
-            of transactioneel vraagstuk?
+            project of juridisch vraagstuk?
           </>
         }
         titleClassName="mt-4 text-3xl md:text-4xl font-semibold leading-tight"

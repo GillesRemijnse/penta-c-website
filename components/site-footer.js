@@ -6,7 +6,10 @@ export default function SiteFooter() {
       <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row justify-between gap-6 text-sm text-gray-600">
         <div>
           <p className="font-semibold text-[#2F3A4C]">Penta - C</p>
-          <p className="mt-2">Management consultancy &amp; M&amp;A advisory</p>
+          <p className="mt-2">
+            M&amp;A advisory, management consultancy &amp;
+            projectbegeleiding, en Legal Counsel
+          </p>
         </div>
 
         <div className="flex flex-wrap gap-4 md:justify-end">
