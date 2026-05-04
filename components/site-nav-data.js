@@ -14,6 +14,10 @@ export const dropdownLinks = [
     href: "/team/persoon-2",
     label: "Dennis Smith",
   },
+  {
+    href: "/team/eefje-wassenaar",
+    label: "Eefje Wassenaar",
+  },
 ];
 
 export const footerLinks = [
@@ -28,10 +32,6 @@ export const footerLinks = [
   {
     href: "/over-ons",
     label: "Over ons",
-  },
-  {
-    href: "/contact",
-    label: "Contact",
   },
 ];
 
@@ -57,9 +57,9 @@ export function getHeaderState(pathname) {
       activePrimary: "/over-ons",
       activeDropdown: "/team/persoon-2",
     },
-    "/contact": {
-      activePrimary: "/contact",
-      activeDropdown: null,
+    "/team/eefje-wassenaar": {
+      activePrimary: "/over-ons",
+      activeDropdown: "/team/eefje-wassenaar",
     },
   };
 

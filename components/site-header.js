@@ -105,12 +105,6 @@ export default function SiteHeader() {
             </div>
           </div>
 
-          <a
-            href="/contact"
-            className={getNavClass(activePrimary === "/contact")}
-          >
-            Contact
-          </a>
         </nav>
 
         {isMobileViewport ? (
@@ -205,15 +199,6 @@ export default function SiteHeader() {
                 ) : null}
               </div>
 
-              <a
-                href="/contact"
-                onClick={closeMobileMenu}
-                className={`block px-5 py-4 text-sm ${getNavClass(
-                  activePrimary === "/contact"
-                )}`}
-              >
-                Contact
-              </a>
             </div>
           </nav>
         </div>

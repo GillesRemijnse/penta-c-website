@@ -1,46 +1,41 @@
 import PageCta from "../../../components/page-cta";
 
-export default function Persoon2Page() {
+export default function EefjeWassenaarPage() {
   return (
     <>
       <section className="max-w-6xl mx-auto px-6 py-24 md:py-28">
         <div className="grid md:grid-cols-[420px_1fr] gap-12 items-start">
-          
-          {/* FOTO + LINKEDIN */}
           <div className="bg-white rounded-2xl p-4 border border-[#EAE6E0]">
             <div className="aspect-[4/5] bg-gray-200 rounded-xl overflow-hidden">
               {/* Hier later foto toevoegen */}
-              {/* <img src="/dennis-smith.jpg" className="w-full h-full object-cover" /> */}
+              {/* <img src="/eefje-wassenaar.jpg" className="w-full h-full object-cover" /> */}
             </div>
 
             <a
-              href="https://www.linkedin.com/in/profieldennissmith/"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="mailto:info@penta-c.nl"
               className="mt-4 inline-block text-sm text-[#2F3A4C] hover:underline"
             >
-              LinkedIn
+              Neem contact op
             </a>
           </div>
 
-          {/* INFO */}
           <div>
             <p className="text-sm uppercase tracking-[0.2em] text-gray-500">Team</p>
 
             <h1 className="mt-4 text-4xl md:text-5xl font-semibold leading-tight">
-              Dennis Smith
+              Eefje Wassenaar
             </h1>
 
             <p className="mt-3 text-lg text-gray-500">
-              Managing Partner
+              Associate Partner
             </p>
 
             <p className="mt-8 text-lg text-gray-600 leading-8 max-w-2xl">
-              Dennis Smith is Managing Partner en mede-oprichter van Penta - C,
-              met een sterke achtergrond in financieel management, interim
-              opdrachten en de inrichting van administratieve en IT-gedreven
-              processen. Hij combineert analytische diepgang met een
-              praktische, uitvoeringsgerichte aanpak.
+              Eefje Wassenaar is Associate Partner en Legal Counsel bij
+              Penta - C en beschikt over meer dan twintig jaar ervaring binnen
+              juridische en internationale omgevingen. Zij ondersteunt
+              organisaties bij juridische vraagstukken, met een focus op
+              zorgvuldigheid, helderheid en praktische toepasbaarheid.
             </p>
 
             <div className="mt-8 flex flex-wrap gap-4">
@@ -67,39 +62,38 @@ export default function Persoon2Page() {
           <div>
             <p className="text-sm uppercase tracking-[0.2em] text-gray-500">Achtergrond</p>
             <h2 className="mt-4 text-3xl md:text-4xl font-semibold leading-tight">
-              Structuur en uitvoering
+              Juridische scherpte
               <br />
-              als basis voor inzicht
+              als onderdeel van het adviesproces
             </h2>
           </div>
 
           <div>
             <p className="text-gray-600 leading-8">
-              Gedurende zijn loopbaan heeft Dennis uitgebreide ervaring
-              opgebouwd in financiële managementrollen, interim opdrachten en
-              consultancytrajecten binnen uiteenlopende organisaties. Hij
-              vervulde onder meer functies als financieel manager, controller
-              en consultant, waarbij hij zich richtte op het structureren en
-              verbeteren van administratieve processen, rapportages en
-              systemen.
+              Eefje heeft een brede juridische achtergrond opgebouwd,
+              variërend van civielrechtelijke advisering tot internationale
+              werkzaamheden binnen diplomatieke context. In haar huidige rol
+              als Legal Counsel is zij verantwoordelijk voor het begeleiden van
+              juridische vraagstukken binnen organisaties, evenals voor het
+              ondersteunen van bredere advies- en transactieprocessen.
             </p>
 
             <p className="mt-6 text-gray-600 leading-8">
-              Binnen Penta - C ligt zijn focus op management consultancy,
-              financiële vraagstukken en projectbegeleiding. Hij ondersteunt
-              organisaties bij het verkrijgen van inzicht in hun financiële
-              positie, het opzetten van financiële prognoses en het verbeteren
-              van interne processen. Daarbij speelt ook de integratie van IT en
-              systemen een belangrijke rol, met als doel om structuur,
-              efficiëntie en betrouwbaarheid te creëren.
+              Binnen Penta - C richt zij zich op ondernemings- en
+              contractrecht, arbeidsrecht en intellectueel eigendom. Zij wordt
+              betrokken bij trajecten waarin juridische scherpte essentieel is,
+              zowel in voorbereidende fases als gedurende onderhandelingen en
+              besluitvorming. Haar werkwijze kenmerkt zich door grondige
+              analyse, heldere communicatie en het vertalen van complexe
+              juridische materie naar praktische oplossingen.
             </p>
 
             <p className="mt-6 text-gray-600 leading-8">
-              Naast zijn advieswerk is Dennis actief geweest als ondernemer en
-              mede-oprichter van verschillende initiatieven. Deze combinatie
-              van praktijkervaring en consultancy zorgt voor een benadering die
-              niet alleen analytisch sterk is, maar ook gericht op uitvoering
-              en resultaat.
+              Door haar ervaring in zowel commerciële als publieke omgevingen
+              is zij in staat om juridische vraagstukken te plaatsen binnen de
+              bredere context van de organisatie. Daarmee vormt zij een
+              belangrijke schakel in trajecten waar juridische, strategische en
+              operationele belangen samenkomen.
             </p>
           </div>
         </div>
@@ -107,7 +101,7 @@ export default function Persoon2Page() {
 
       <PageCta
         eyebrow="Contact"
-        title="Kennismaken met Dennis Smith?"
+        title="Kennismaken met Eefje Wassenaar?"
         titleClassName="mt-4 text-3xl md:text-4xl font-semibold"
         body="Neem gerust contact op voor een vertrouwelijk eerste gesprek."
         bodyClassName="mt-6 text-gray-200 leading-8"

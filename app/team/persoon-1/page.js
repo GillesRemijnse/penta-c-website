@@ -36,15 +36,17 @@ export default function Persoon1Page() {
             </p>
 
             <p className="mt-8 text-lg text-gray-600 leading-8 max-w-2xl">
-              Ervaren adviseur met een focus op strategische vraagstukken,
-              transacties en ondernemingsontwikkeling. Binnen Penta - C ligt
-              de nadruk op persoonlijke begeleiding, inhoudelijke scherpte en
-              een zorgvuldige benadering van complexe trajecten.
+              Jacob Remijnse is Managing Partner en mede-oprichter van
+              Penta - C en beschikt over meer dan veertig jaar ervaring binnen
+              de financiële sector, consultancy en ondernemingsbestuur. Hij
+              begeleidt organisaties bij strategische en transactionele
+              vraagstukken, met een focus op overzicht, rust en weloverwogen
+              besluitvorming.
             </p>
 
             <div className="mt-8 flex flex-wrap gap-4">
               <a
-                href="/contact"
+                href="mailto:info@penta-c.nl"
                 className="border border-[#2F3A4C] px-6 py-3 rounded-md hover:bg-[#2F3A4C] hover:text-white transition duration-200"
               >
                 Neem contact op
@@ -75,13 +77,32 @@ export default function Persoon1Page() {
 
           <div>
             <p className="text-gray-600 leading-8">
-              Deze profielpagina is bedoeld om de achtergrond, ervaring en
-              toegevoegde waarde van deze adviseur zichtbaar te maken.
+              Gedurende zijn loopbaan heeft Jacob een brede en diepgaande
+              ervaring opgebouwd op het snijvlak van finance, consultancy en
+              ondernemingsontwikkeling. Hij vervulde onder meer rollen als CFO,
+              directeur en interim manager binnen uiteenlopende organisaties,
+              variërend van corporates tot innovatieve groeibedrijven. Deze
+              achtergrond stelt hem in staat om complexe situaties snel te
+              doorgronden en terug te brengen tot de kern.
             </p>
 
             <p className="mt-6 text-gray-600 leading-8">
-              De insteek is steeds dezelfde: cliënten begeleiden met rust,
-              overzicht en inhoudelijke diepgang.
+              Binnen Penta - C ligt zijn focus op fusies en overnames,
+              strategische trajecten en vraagstukken rondom financiering en
+              organisatieontwikkeling. Hij is nauw betrokken bij het volledige
+              proces: van voorbereiding en positionering tot besluitvorming en
+              uitvoering. Zijn aanpak kenmerkt zich door analytische scherpte,
+              praktische toepasbaarheid en een constante focus op het belang
+              van de cliënt.
+            </p>
+
+            <p className="mt-6 text-gray-600 leading-8">
+              Naast zijn werkzaamheden binnen Penta - C is Jacob actief geweest
+              in verschillende ondernemingen en projecten, onder meer als CFO
+              en directeur binnen organisaties in uiteenlopende sectoren. Deze
+              combinatie van advies en praktijkervaring zorgt voor een
+              benadering die niet alleen strategisch, maar ook uitvoerbaar en
+              realistisch is.
             </p>
           </div>
         </div>
@@ -96,7 +117,7 @@ export default function Persoon1Page() {
         actionsClassName="mt-8"
         actions={
           <a
-            href="/contact"
+            href="mailto:info@penta-c.nl"
             className="bg-white text-[#2F3A4C] px-6 py-3 rounded-md font-medium hover:-translate-y-0.5 hover:shadow-md transition duration-200"
           >
             Neem contact op

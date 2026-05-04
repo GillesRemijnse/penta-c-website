@@ -11,9 +11,10 @@ export default function DienstenPage() {
           en transactionele beslissingen
         </h1>
         <p className="mt-6 text-lg text-gray-600 max-w-3xl leading-8">
-          Penta - C ondersteunt ondernemingen en aandeelhouders bij vraagstukken
-          waar senioriteit, discretie en zorgvuldige begeleiding essentieel zijn.
-          Van M&amp;A trajecten tot strategische advisering en waarderingsvraagstukken.
+          Penta - C ondersteunt ondernemingen en aandeelhouders bij
+          transacties, management- en projectvraagstukken en biedt juridische
+          ondersteuning in trajecten waar senioriteit, discretie en heldere
+          afwegingen essentieel zijn.
         </p>
       </section>
 
@@ -25,19 +26,19 @@ export default function DienstenPage() {
                 <p className="text-sm uppercase tracking-[0.2em] text-gray-500">Dienst 01</p>
                 <h2 className="mt-4 text-2xl md:text-3xl font-semibold">M&amp;A advisory</h2>
                 <p className="mt-5 text-gray-600 leading-8">
-                  Penta - C begeleidt ondernemingen en aandeelhouders bij aan-
-                  en verkooptrajecten. Daarbij staat een zorgvuldige aanpak centraal,
-                  met aandacht voor voorbereiding, structurering, positionering,
-                  onderhandelingen en besluitvorming.
+                  Penta - C ondersteunt ondernemingen en aandeelhouders bij aan-
+                  en verkooptrajecten. Daarbij ligt de nadruk op voorbereiding,
+                  waardering, positionering, onderhandeling en besluitvorming,
+                  met oog voor een beheerst en overzichtelijk proces.
                 </p>
               </div>
 
               <div className="border border-[#EAE6E0] rounded-2xl p-6">
                 <h3 className="font-semibold text-lg">Waarbij wij ondersteunen</h3>
                 <p className="mt-4 text-gray-600 leading-8">
-                  Verkooptrajecten, acquisities, voorbereiding op transacties en
-                  begeleiding gedurende het proces, met oog voor overzicht,
-                  vertrouwelijkheid en kwaliteit.
+                  Verkooptrajecten, acquisities, waarderingsvraagstukken,
+                  positionering richting transactie, onderbouwing van gesprekken
+                  en ondersteuning tijdens het proces.
                 </p>
               </div>
             </div>
@@ -47,21 +48,23 @@ export default function DienstenPage() {
             <div className="grid md:grid-cols-[1.2fr_1fr] gap-10 items-start">
               <div>
                 <p className="text-sm uppercase tracking-[0.2em] text-gray-500">Dienst 02</p>
-                <h2 className="mt-4 text-2xl md:text-3xl font-semibold">Management consultancy</h2>
+                <h2 className="mt-4 text-2xl md:text-3xl font-semibold">Management consultancy &amp; projectbegeleiding</h2>
                 <p className="mt-5 text-gray-600 leading-8">
-                  Naast transacties ondersteunt Penta - C bij bredere strategische
-                  en organisatorische vraagstukken. Denk aan situaties waarin
-                  ondernemers behoefte hebben aan een ervaren sparringpartner met
-                  financieel inzicht en gevoel voor bestuurlijke verhoudingen.
+                  Naast transacties ondersteunt Penta - C bij
+                  managementvraagstukken, projecttrajecten en de inrichting
+                  van complexe administratieve en financiële processen.
+                  Daaronder vallen ook financiële prognoses, structurering en de
+                  praktische uitwerking van vraagstukken die om richting en
+                  uitvoering vragen.
                 </p>
               </div>
 
               <div className="border border-[#EAE6E0] rounded-2xl p-6">
                 <h3 className="font-semibold text-lg">Waarbij wij ondersteunen</h3>
                 <p className="mt-4 text-gray-600 leading-8">
-                  Strategische heroriëntatie, besluitvorming, positionering en
-                  complexe vraagstukken waarbij helderheid, richting en senioriteit
-                  nodig zijn.
+                  Complexe administratieve en financiële processen, financiële
+                  prognoses, projectbegeleiding, organisatorische inrichting,
+                  managementvraagstukken en de uitwerking van verandertrajecten.
                 </p>
               </div>
             </div>
@@ -71,21 +74,23 @@ export default function DienstenPage() {
             <div className="grid md:grid-cols-[1.2fr_1fr] gap-10 items-start">
               <div>
                 <p className="text-sm uppercase tracking-[0.2em] text-gray-500">Dienst 03</p>
-                <h2 className="mt-4 text-2xl md:text-3xl font-semibold">Waardering &amp; positionering</h2>
+                <h2 className="mt-4 text-2xl md:text-3xl font-semibold">Legal Counsel</h2>
                 <p className="mt-5 text-gray-600 leading-8">
-                  Een goede waardering vormt vaak de basis voor strategische keuzes
-                  en transacties. Penta - C ondersteunt bij het verkrijgen van
-                  inzicht in de waarde van een onderneming, rekening houdend met
-                  relevante financiële, operationele en marktgerelateerde factoren.
+                  Penta - C biedt juridische ondersteuning bij ondernemings- en
+                  contractrechtelijke vraagstukken, arbeidsrecht,
+                  intellectueel eigendom en dossiers waarin juridische scherpte
+                  onderdeel is van een breder advies- of transactietraject.
+                  Daarbij vormen legal research en heldere juridische
+                  uitwerking een belangrijke basis.
                 </p>
               </div>
 
               <div className="border border-[#EAE6E0] rounded-2xl p-6">
                 <h3 className="font-semibold text-lg">Waarbij wij ondersteunen</h3>
                 <p className="mt-4 text-gray-600 leading-8">
-                  Waarderingsvraagstukken, onderbouwing van gesprekken,
-                  transactiestructuur en de positionering van de onderneming
-                  richting vervolgstappen.
+                  Ondernemings- en contractrecht, arbeidsrecht, intellectueel
+                  eigendom, juridische ondersteuning bij fusies en overnames,
+                  legal research en legal writing.
                 </p>
               </div>
             </div>
@@ -130,22 +135,14 @@ export default function DienstenPage() {
           </>
         }
         bodyClassName="mt-6 text-gray-200 leading-8 max-w-2xl mx-auto"
-        actionsClassName="mt-8 flex flex-col md:flex-row justify-center gap-4"
+        actionsClassName="mt-8"
         actions={
-          <>
-            <a
-              href="mailto:info@penta-c.nl"
-              className="bg-white text-[#2F3A4C] px-6 py-3 rounded-md font-medium hover:-translate-y-0.5 hover:shadow-md transition duration-200"
-            >
-              Stuur een e-mail
-            </a>
-            <a
-              href="/contact"
-              className="border border-white px-6 py-3 rounded-md hover:bg-white hover:text-[#2F3A4C] transition duration-200"
-            >
-              Naar contactpagina
-            </a>
-          </>
+          <a
+            href="mailto:info@penta-c.nl"
+            className="bg-white text-[#2F3A4C] px-6 py-3 rounded-md font-medium hover:-translate-y-0.5 hover:shadow-md transition duration-200"
+          >
+            Stuur een e-mail
+          </a>
         }
       />
     </>

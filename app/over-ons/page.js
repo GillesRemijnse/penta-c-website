@@ -63,32 +63,46 @@ export default function OverOnsPage() {
             </p>
           </div>
 
-          <div className="mt-14 grid md:grid-cols-2 gap-8">
+          <div className="mt-14 grid md:grid-cols-3 gap-8">
             <div className="bg-[#F7F5F2] rounded-2xl p-8 border border-[#EAE6E0]">
               <div className="aspect-[4/5] bg-gray-200 rounded-xl mb-6" />
-              <h3 className="text-xl font-semibold">Naam Persoon 1</h3>
-              <p className="text-sm text-gray-500 mt-1">Functietitel</p>
+              <h3 className="text-xl font-semibold">Jacob Remijnse</h3>
+              <p className="text-sm text-gray-500 mt-1">Managing Partner</p>
               <p className="mt-4 text-gray-600 leading-7">
                 Ervaren adviseur met focus op M&amp;A en strategische trajecten.
                 Combineert financiële diepgang met een praktische aanpak.
               </p>
               <div className="mt-6 flex gap-4 text-sm">
                 <a href="/team/persoon-1" className="hover:underline">Bekijk profiel</a>
-                <a href="/contact" className="hover:underline">Neem contact op</a>
+                <a href="mailto:info@penta-c.nl" className="hover:underline">Neem contact op</a>
               </div>
             </div>
 
             <div className="bg-[#F7F5F2] rounded-2xl p-8 border border-[#EAE6E0]">
               <div className="aspect-[4/5] bg-gray-200 rounded-xl mb-6" />
-              <h3 className="text-xl font-semibold">Naam Persoon 2</h3>
-              <p className="text-sm text-gray-500 mt-1">Functietitel</p>
+              <h3 className="text-xl font-semibold">Dennis Smith</h3>
+              <p className="text-sm text-gray-500 mt-1">Managing Partner</p>
               <p className="mt-4 text-gray-600 leading-7">
                 Specialist in consultancy en waarderingsvraagstukken,
                 met oog voor structuur, strategie en besluitvorming.
               </p>
               <div className="mt-6 flex gap-4 text-sm">
                 <a href="/team/persoon-2" className="hover:underline">Bekijk profiel</a>
-                <a href="/contact" className="hover:underline">Neem contact op</a>
+                <a href="mailto:info@penta-c.nl" className="hover:underline">Neem contact op</a>
+              </div>
+            </div>
+
+            <div className="bg-[#F7F5F2] rounded-2xl p-8 border border-[#EAE6E0]">
+              <div className="aspect-[4/5] bg-gray-200 rounded-xl mb-6" />
+              <h3 className="text-xl font-semibold">Eefje Wassenaar</h3>
+              <p className="text-sm text-gray-500 mt-1">Associate Partner</p>
+              <p className="mt-4 text-gray-600 leading-7">
+                Legal Counsel met focus op ondernemings- en contractrecht,
+                arbeidsrecht, fusies en overnames en intellectueel eigendom.
+              </p>
+              <div className="mt-6 flex gap-4 text-sm">
+                <a href="/team/eefje-wassenaar" className="hover:underline">Bekijk profiel</a>
+                <a href="mailto:info@penta-c.nl" className="hover:underline">Neem contact op</a>
               </div>
             </div>
           </div>
@@ -103,7 +117,7 @@ export default function OverOnsPage() {
         actionsClassName="mt-8"
         actions={
           <a
-            href="/contact"
+            href="mailto:info@penta-c.nl"
             className="bg-white text-[#2F3A4C] px-6 py-3 rounded-md font-medium hover:-translate-y-0.5 hover:shadow-md transition duration-200"
           >
             Neem contact op
