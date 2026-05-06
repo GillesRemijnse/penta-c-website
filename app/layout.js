@@ -16,11 +16,11 @@ const sourceSerif = Source_Serif_4({
 
 export const metadata = {
   title: {
-    default: "Penta - C | M&A advisory, management consultancy & Legal Counsel",
-    template: "%s | Penta - C",
+    default: "Penta-C | M&A advisory, management consultancy & Legal Counsel",
+    template: "%s | Penta-C",
   },
   description:
-    "Penta - C is een boutique advieskantoor voor M&A advisory, management consultancy, projectbegeleiding en Legal Counsel.",
+    "Penta-C is een boutique advieskantoor voor M&A advisory, management consultancy, projectbegeleiding en Legal Counsel.",
 };
 
 export default function RootLayout({ children }) {

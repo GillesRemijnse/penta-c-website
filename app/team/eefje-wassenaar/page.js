@@ -3,13 +3,13 @@ import PageCta from "../../../components/page-cta";
 export const metadata = {
   title: "Eefje Wassenaar - Associate Partner",
   description:
-    "Profiel van Eefje Wassenaar, Associate Partner en Legal Counsel bij Penta - C, met focus op ondernemings- en contractrecht, arbeidsrecht en intellectueel eigendom.",
+    "Profiel van Eefje Wassenaar, Associate Partner en Legal Counsel bij Penta-C, met focus op ondernemings- en contractrecht, arbeidsrecht en intellectueel eigendom.",
 };
 
 export default function EefjeWassenaarPage() {
   return (
     <>
-      <section className="max-w-6xl mx-auto px-6 py-24 md:py-28">
+      <section className="max-w-6xl mx-auto px-6 py-20 md:py-24">
         <div className="grid md:grid-cols-[420px_1fr] gap-12 items-start">
           <div className="bg-white rounded-2xl p-4 border border-[#EAE6E0]">
             <div className="relative flex aspect-[4/5] items-center justify-center overflow-hidden rounded-xl bg-[#ECE8E1]">
@@ -41,7 +41,7 @@ export default function EefjeWassenaarPage() {
 
             <p className="mt-8 text-lg text-gray-600 leading-8 max-w-2xl">
               Eefje Wassenaar is Associate Partner en Legal Counsel bij
-              Penta - C en beschikt over meer dan twintig jaar ervaring binnen
+              Penta-C en beschikt over meer dan twintig jaar ervaring binnen
               juridische en internationale omgevingen. Zij ondersteunt
               organisaties bij juridische vraagstukken, met een focus op
               zorgvuldigheid, helderheid en praktische toepasbaarheid.
@@ -66,7 +66,7 @@ export default function EefjeWassenaarPage() {
         </div>
       </section>
 
-      <section className="bg-white py-24">
+      <section className="bg-white py-20 md:py-24">
         <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-start">
           <div>
             <p className="text-sm uppercase tracking-[0.2em] text-gray-500">Achtergrond</p>
@@ -88,7 +88,7 @@ export default function EefjeWassenaarPage() {
             </p>
 
             <p className="mt-6 text-gray-600 leading-8">
-              Binnen Penta - C richt zij zich op ondernemings- en
+              Binnen Penta-C richt zij zich op ondernemings- en
               contractrecht, arbeidsrecht en intellectueel eigendom. Zij wordt
               betrokken bij trajecten waarin juridische scherpte essentieel is,
               zowel in voorbereidende fases als gedurende onderhandelingen en

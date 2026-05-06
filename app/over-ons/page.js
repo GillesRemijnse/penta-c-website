@@ -4,13 +4,13 @@ import PageCta from "../../components/page-cta";
 export const metadata = {
   title: "Over ons",
   description:
-    "Maak kennis met Penta - C en het team achter M&A advisory, management consultancy, projectbegeleiding en Legal Counsel.",
+    "Maak kennis met Penta-C en het team achter M&A advisory, management consultancy, projectbegeleiding en Legal Counsel.",
 };
 
 export default function OverOnsPage() {
   return (
     <>
-      <section className="max-w-6xl mx-auto px-6 py-24 md:py-28">
+      <section className="max-w-6xl mx-auto px-6 py-20 md:py-24">
         <p className="text-sm uppercase tracking-[0.2em] text-gray-500">Over ons</p>
         <h1 className="mt-4 text-4xl md:text-5xl font-semibold leading-tight max-w-4xl">
           Ervaring en discretie
@@ -18,7 +18,7 @@ export default function OverOnsPage() {
           bij trajecten die ertoe doen
         </h1>
         <p className="mt-6 text-lg text-gray-600 max-w-2xl leading-8">
-          Penta - C is een boutique advieskantoor voor M&amp;A advisory,
+          Penta-C is een boutique advieskantoor voor M&amp;A advisory,
           management consultancy, projectbegeleiding en Legal Counsel. Wij
           ondersteunen ondernemers en organisaties bij vraagstukken waar
           financiële, juridische, operationele en persoonlijke belangen
@@ -26,7 +26,7 @@ export default function OverOnsPage() {
         </p>
       </section>
 
-      <section className="bg-white py-24">
+      <section className="py-20 md:py-24">
         <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-start">
           <div>
             <h2 className="text-3xl md:text-4xl font-semibold leading-tight">
@@ -38,7 +38,7 @@ export default function OverOnsPage() {
           <div>
             <p className="text-gray-600 leading-8">
               Met circa 40 jaar ervaring in de financiële sector brengt
-              Penta - C overzicht en rust in complexe trajecten.
+              Penta-C overzicht en rust in complexe trajecten.
               Die ervaring vertaalt zich in een aanpak die zowel analytisch
               scherp als praktisch toepasbaar is.
             </p>
@@ -51,7 +51,7 @@ export default function OverOnsPage() {
         </div>
       </section>
 
-      <section className="py-24">
+      <section className="py-20 md:py-24">
         <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-3 gap-8">
           <div className="bg-white rounded-2xl p-8 border border-[#EAE6E0]"><h3 className="text-xl font-semibold">Persoonlijk</h3><p className="mt-4 text-gray-600 leading-7">Direct contact en betrokkenheid bij iedere opdracht, met korte lijnen en heldere communicatie.</p></div>
           <div className="bg-white rounded-2xl p-8 border border-[#EAE6E0]"><h3 className="text-xl font-semibold">Discreet</h3><p className="mt-4 text-gray-600 leading-7">Wij begrijpen dat timing, vertrouwelijkheid en zorgvuldigheid essentieel zijn bij transacties, managementvraagstukken en juridische trajecten.</p></div>
@@ -59,20 +59,20 @@ export default function OverOnsPage() {
         </div>
       </section>
 
-      <section className="bg-white py-24">
+      <section className="bg-white py-20 md:py-24">
         <div className="max-w-6xl mx-auto px-6">
           <div className="max-w-2xl">
             <p className="text-sm uppercase tracking-[0.2em] text-gray-500">Team</p>
-            <h2 className="mt-4 text-3xl md:text-4xl font-semibold">De mensen achter Penta - C</h2>
+            <h2 className="mt-4 text-3xl md:text-4xl font-semibold">De mensen achter Penta-C</h2>
             <p className="mt-6 text-gray-600 leading-8">
-              Penta - C werkt met een compact team van ervaren adviseurs.
+              Penta-C werkt met een compact team van ervaren adviseurs.
               Hierdoor blijft de betrokkenheid hoog en is er altijd directe
               toegang tot senior expertise.
             </p>
           </div>
 
           <div className="mt-14 grid md:grid-cols-3 gap-8">
-            <div className="bg-[#F7F5F2] rounded-2xl p-8 border border-[#EAE6E0]">
+            <div className="flex h-full flex-col rounded-2xl border border-[#EAE6E0] bg-[#F7F5F2] p-8">
               <div className="relative mb-6 aspect-[4/5] overflow-hidden rounded-xl bg-[#ECE8E1]">
                 <Image
                   src="/team/jacob-remijnse.jpg"
@@ -89,13 +89,13 @@ export default function OverOnsPage() {
                 organisatieontwikkeling. Combineert financiële diepgang met
                 een praktische aanpak.
               </p>
-              <div className="mt-6 flex gap-4 text-sm">
+              <div className="mt-auto flex flex-wrap gap-4 pt-6 text-sm">
                 <a href="/team/jacob-remijnse" className="hover:underline">Bekijk profiel</a>
                 <a href="mailto:info@penta-c.nl" className="hover:underline">Neem contact op</a>
               </div>
             </div>
 
-            <div className="bg-[#F7F5F2] rounded-2xl p-8 border border-[#EAE6E0]">
+            <div className="flex h-full flex-col rounded-2xl border border-[#EAE6E0] bg-[#F7F5F2] p-8">
               <div className="relative mb-6 aspect-[4/5] overflow-hidden rounded-xl bg-[#ECE8E1]">
                 <Image
                   src="/team/dennis-smith.jpg"
@@ -111,13 +111,13 @@ export default function OverOnsPage() {
                 Specialist in management consultancy, financiële vraagstukken
                 en projectbegeleiding, met oog voor structuur en uitvoering.
               </p>
-              <div className="mt-6 flex gap-4 text-sm">
+              <div className="mt-auto flex flex-wrap gap-4 pt-6 text-sm">
                 <a href="/team/dennis-smith" className="hover:underline">Bekijk profiel</a>
                 <a href="mailto:info@penta-c.nl" className="hover:underline">Neem contact op</a>
               </div>
             </div>
 
-            <div className="bg-[#F7F5F2] rounded-2xl p-8 border border-[#EAE6E0]">
+            <div className="flex h-full flex-col rounded-2xl border border-[#EAE6E0] bg-[#F7F5F2] p-8">
               <div className="mb-6 flex aspect-[4/5] items-center justify-center rounded-xl bg-[#ECE8E1]">
                 <span className="text-xs uppercase tracking-[0.18em] text-gray-500">
                   Foto volgt
@@ -129,7 +129,7 @@ export default function OverOnsPage() {
                 Legal Counsel met focus op ondernemings- en contractrecht,
                 arbeidsrecht, fusies en overnames en intellectueel eigendom.
               </p>
-              <div className="mt-6 flex gap-4 text-sm">
+              <div className="mt-auto flex flex-wrap gap-4 pt-6 text-sm">
                 <a href="/team/eefje-wassenaar" className="hover:underline">Bekijk profiel</a>
                 <a href="mailto:info@penta-c.nl" className="hover:underline">Neem contact op</a>
               </div>

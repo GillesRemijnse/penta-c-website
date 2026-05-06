@@ -4,13 +4,13 @@ import PageCta from "../../../components/page-cta";
 export const metadata = {
   title: "Dennis Smith - Managing Partner",
   description:
-    "Profiel van Dennis Smith, Managing Partner en mede-oprichter van Penta - C, met focus op management consultancy, financiële vraagstukken en projectbegeleiding.",
+    "Profiel van Dennis Smith, Managing Partner en mede-oprichter van Penta-C, met focus op management consultancy, financiële vraagstukken en projectbegeleiding.",
 };
 
 export default function DennisSmithPage() {
   return (
     <>
-      <section className="max-w-6xl mx-auto px-6 py-24 md:py-28">
+      <section className="max-w-6xl mx-auto px-6 py-20 md:py-24">
         <div className="grid md:grid-cols-[420px_1fr] gap-12 items-start">
           <div className="bg-white rounded-2xl p-4 border border-[#EAE6E0]">
             <div className="relative aspect-[4/5] overflow-hidden rounded-xl bg-[#ECE8E1]">
@@ -44,7 +44,7 @@ export default function DennisSmithPage() {
             <p className="mt-3 text-lg text-gray-500">Managing Partner</p>
 
             <p className="mt-8 text-lg text-gray-600 leading-8 max-w-2xl">
-              Dennis Smith is Managing Partner en mede-oprichter van Penta - C,
+              Dennis Smith is Managing Partner en mede-oprichter van Penta-C,
               met een sterke achtergrond in financieel management, interim
               opdrachten en de inrichting van administratieve en IT-gedreven
               processen. Hij combineert analytische diepgang met een
@@ -70,7 +70,7 @@ export default function DennisSmithPage() {
         </div>
       </section>
 
-      <section className="bg-white py-24">
+      <section className="bg-white py-20 md:py-24">
         <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-start">
           <div>
             <p className="text-sm uppercase tracking-[0.2em] text-gray-500">Achtergrond</p>
@@ -86,14 +86,14 @@ export default function DennisSmithPage() {
               Gedurende zijn loopbaan heeft Dennis uitgebreide ervaring
               opgebouwd in financiële managementrollen, interim opdrachten en
               consultancytrajecten binnen uiteenlopende organisaties. Hij
-              vervulde onder meer functies als financieel manager, controller
-              en consultant, waarbij hij zich richtte op het structureren en
-              verbeteren van administratieve processen, rapportages en
-              systemen.
+              vervulde onder meer functies als directeur, financieel manager,
+              controller en consultant, waarbij hij zich richtte op het
+              structureren en verbeteren van administratieve processen,
+              rapportages en systemen.
             </p>
 
             <p className="mt-6 text-gray-600 leading-8">
-              Binnen Penta - C ligt zijn focus op management consultancy,
+              Binnen Penta-C ligt zijn focus op management consultancy,
               financiële vraagstukken en projectbegeleiding. Hij ondersteunt
               organisaties bij het verkrijgen van inzicht in hun financiële
               positie, het opzetten van financiële prognoses en het verbeteren

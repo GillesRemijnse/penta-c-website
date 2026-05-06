@@ -4,13 +4,13 @@ import PageCta from "../../../components/page-cta";
 export const metadata = {
   title: "Jacob Remijnse - Managing Partner",
   description:
-    "Profiel van Jacob Remijnse, Managing Partner en mede-oprichter van Penta - C, met focus op M&A advisory, financiering en organisatieontwikkeling.",
+    "Profiel van Jacob Remijnse, Managing Partner en mede-oprichter van Penta-C, met focus op M&A advisory, financiering en organisatieontwikkeling.",
 };
 
 export default function JacobRemijnsePage() {
   return (
     <>
-      <section className="max-w-6xl mx-auto px-6 py-24 md:py-28">
+      <section className="max-w-6xl mx-auto px-6 py-20 md:py-24">
         <div className="grid md:grid-cols-[420px_1fr] gap-12 items-start">
           <div className="bg-white rounded-2xl p-4 border border-[#EAE6E0]">
             <div className="relative aspect-[4/5] overflow-hidden rounded-xl bg-[#ECE8E1]">
@@ -45,7 +45,7 @@ export default function JacobRemijnsePage() {
 
             <p className="mt-8 text-lg text-gray-600 leading-8 max-w-2xl">
               Jacob Remijnse is Managing Partner en mede-oprichter van
-              Penta - C en beschikt over meer dan veertig jaar ervaring binnen
+              Penta-C en beschikt over meer dan veertig jaar ervaring binnen
               de financiële sector, consultancy en ondernemingsbestuur. Hij
               begeleidt organisaties bij strategische en transactionele
               vraagstukken, met een focus op overzicht, rust en weloverwogen
@@ -71,7 +71,7 @@ export default function JacobRemijnsePage() {
         </div>
       </section>
 
-      <section className="bg-white py-24">
+      <section className="bg-white py-20 md:py-24">
         <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-start">
           <div>
             <p className="text-sm uppercase tracking-[0.2em] text-gray-500">Achtergrond</p>
@@ -94,7 +94,7 @@ export default function JacobRemijnsePage() {
             </p>
 
             <p className="mt-6 text-gray-600 leading-8">
-              Binnen Penta - C ligt zijn focus op fusies en overnames,
+              Binnen Penta-C ligt zijn focus op fusies en overnames,
               strategische trajecten en vraagstukken rondom financiering en
               organisatieontwikkeling. Hij is nauw betrokken bij het volledige
               proces: van voorbereiding en positionering tot besluitvorming en
@@ -104,7 +104,7 @@ export default function JacobRemijnsePage() {
             </p>
 
             <p className="mt-6 text-gray-600 leading-8">
-              Naast zijn werkzaamheden binnen Penta - C is Jacob actief geweest
+              Naast zijn werkzaamheden binnen Penta-C is Jacob actief geweest
               in verschillende ondernemingen en projecten, onder meer als CFO
               en directeur binnen organisaties in uiteenlopende sectoren. Deze
               combinatie van advies en praktijkervaring zorgt voor een
